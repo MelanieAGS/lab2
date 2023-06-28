@@ -1,0 +1,97 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/8080-melanieags-lab2-g1qc5x6j6xg.ws-us101.gitpod.io\/user\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "https:\/\/8080-melanieags-lab2-g1qc5x6j6xg.ws-us101.gitpod.io\/rest\/type\/user\/user"
+        }
+    },
+    "uid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "334b3c92-89cd-44fe-a066-53b9ae060a0c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "preferred_langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "admin"
+        }
+    ],
+    "mail": [
+        {
+            "value": "admin@example.com"
+        }
+    ],
+    "timezone": [
+        {
+            "value": "UTC"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-06-28T06:06:05+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-06-28T06:15:21+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "access": [
+        {
+            "value": "2023-06-28T07:39:20+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "login": [
+        {
+            "value": "2023-06-28T06:15:27+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "init": [
+        {
+            "value": "admin@example.com"
+        }
+    ],
+    "roles": [
+        {
+            "target_id": "administrator"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "pass": [
+        {
+            "value": "$2y$10$CLzcMRsP.1j3p2CsDrEjvuJA\/g21ENJi\/MnIO581oHzbD1coSOlgi"
+        }
+    ]
+}

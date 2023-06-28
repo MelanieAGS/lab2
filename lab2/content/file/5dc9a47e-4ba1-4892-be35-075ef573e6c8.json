@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/8080-melanieags-lab2-g1qc5x6j6xg.ws-us101.gitpod.io\/sites\/default\/files\/2023-06\/2.pdf"
+        },
+        "type": {
+            "href": "https:\/\/8080-melanieags-lab2-g1qc5x6j6xg.ws-us101.gitpod.io\/rest\/type\/file\/file"
+        },
+        "https:\/\/8080-melanieags-lab2-g1qc5x6j6xg.ws-us101.gitpod.io\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "https:\/\/8080-melanieags-lab2-g1qc5x6j6xg.ws-us101.gitpod.io\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 5
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5dc9a47e-4ba1-4892-be35-075ef573e6c8"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/8080-melanieags-lab2-g1qc5x6j6xg.ws-us101.gitpod.io\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-melanieags-lab2-g1qc5x6j6xg.ws-us101.gitpod.io\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-melanieags-lab2-g1qc5x6j6xg.ws-us101.gitpod.io\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "334b3c92-89cd-44fe-a066-53b9ae060a0c"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "2.pdf"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2023-06\/2.pdf",
+            "url": "\/sites\/default\/files\/2023-06\/2.pdf"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "application\/pdf"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 1
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-06-28T07:23:36+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-06-28T07:23:39+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

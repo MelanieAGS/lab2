@@ -1,0 +1,29 @@
+uuid: cfa683e2-e841-4f6d-acf0-e97a32bfedb4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_licencia
+    - media.type.file
+    - taxonomy.vocabulary.licencia
+id: media.file.field_licencia
+field_name: field_licencia
+entity_type: media
+bundle: file
+label: Licencia
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      licencia: licencia
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

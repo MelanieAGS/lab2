@@ -1,0 +1,47 @@
+uuid: c286ca35-f733-4694-903f-e802e46e5d27
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.notas.body
+    - field.field.node.notas.field_archivo
+    - field.field.node.notas.field_licencia
+    - node.type.notas
+  module:
+    - text
+    - user
+id: node.notas.default
+targetEntityType: node
+bundle: notas
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_archivo:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_licencia:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

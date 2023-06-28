@@ -1,0 +1,29 @@
+uuid: 11fc008a-b55b-41aa-974d-f31c5f94a192
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_licencia
+    - node.type.notas
+    - taxonomy.vocabulary.licencia
+id: node.notas.field_licencia
+field_name: field_licencia
+entity_type: node
+bundle: notas
+label: Licencia
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      licencia: licencia
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

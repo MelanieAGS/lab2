@@ -1,0 +1,24 @@
+uuid: cf402f80-6466-41f8-b511-540a0282f50e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.notas
+  module:
+    - text
+id: node.notas.body
+field_name: body
+entity_type: node
+bundle: notas
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

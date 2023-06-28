@@ -1,0 +1,55 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/8080-melanieags-lab2-g1qc5x6j6xg.ws-us101.gitpod.io\/admin\/config\/user-interface\/shortcut\/link\/2?_format=hal_json"
+        },
+        "type": {
+            "href": "https:\/\/8080-melanieags-lab2-g1qc5x6j6xg.ws-us101.gitpod.io\/rest\/type\/shortcut\/default"
+        }
+    },
+    "id": [
+        {
+            "value": 2
+        }
+    ],
+    "uuid": [
+        {
+            "value": "bd65d858-cff6-4e28-b91b-812d1276d6a1"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "shortcut_set": [
+        {
+            "target_id": "default"
+        }
+    ],
+    "title": [
+        {
+            "value": "All content",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": -19
+        }
+    ],
+    "link": [
+        {
+            "uri": "internal:\/admin\/content",
+            "title": null,
+            "options": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ]
+}

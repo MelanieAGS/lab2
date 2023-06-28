@@ -1,0 +1,18 @@
+uuid: 5c23d1f1-fa03-411d-88bc-73d6a2afe95a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.notas
+id: node.notas.title
+field_name: title
+entity_type: node
+bundle: notas
+label: Notas
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

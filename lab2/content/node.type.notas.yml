@@ -1,0 +1,18 @@
+uuid: fc71a866-167a-4ed1-91e4-04affc981269
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Notas
+type: notas
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
